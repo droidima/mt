@@ -31,7 +31,7 @@ COPY --from=0 /mtproxy/sources/objs/bin/mtproto-proxy .
 COPY docker-entrypoint.sh /
 
 VOLUME /data
-EXPOSE 2398 443 80
+EXPOSE 2398 443
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD [ \
