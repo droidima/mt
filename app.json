@@ -1,0 +1,9 @@
+{
+  "name": "mtproxy",
+  "description": "deploy mtproxy to Heroku.",
+  "keywords": ["mtproxy"],
+  
+  "website": "https://github.com/instkffff/mtproxy-1",
+  "repository": "https://github.com/instkffff/mtproxy-1",
+  "stack": "container"
+ }
